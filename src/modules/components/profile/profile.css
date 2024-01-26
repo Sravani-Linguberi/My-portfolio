@@ -1,0 +1,14 @@
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background: gray
+}
+
+.girl {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
