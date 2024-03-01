@@ -1,10 +1,11 @@
 import "./App.css";
-import HomePage from "./modules/components/homePage/homePage";
+import React from "react";
+import RouterPath from "./routerPath";
+
 export default function App() {
-  
   return (
     <div className="App">
-      <HomePage></HomePage>
+      <RouterPath />
     </div>
   );
 }
