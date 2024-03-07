@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-// import wat from '../../../asserts/wat.mp4';
-// import gif from '../../../asserts/gif.gif';
-import NavBar from "../nav/nav";
+import NavBar from "../navBar/navBar";
 import Profile from "../profile/profile";
 function HomePage() {
   const [theme, setTheme] = useState("light");
-
+  document.querySelector("body").setAttribute("data-theme", theme);
   return (
     <div>
-      <NavBar theme={theme} setTheme={setTheme} />
-      <Profile />
+      {/* <NavBar theme={theme} setTheme={setTheme} /> */}
+      <NavBar />
+      {/* <Profile /> */}
     </div>
   );
 }
